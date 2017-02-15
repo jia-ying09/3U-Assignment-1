@@ -39,6 +39,9 @@ public class A1Q5 {
         new Wall(kitchener, 2, 3, Direction.EAST);
         new Wall(kitchener, 3, 3, Direction.EAST);
         new Wall(kitchener, 3, 3, Direction.SOUTH);
+        //setting labels
+        timmy.setLabel("timmy");
+        maria.setLabel("maria");
         //MAKING THE ROBOTS MOVE
         timmy.turnLeft();
         maria.move();
@@ -61,6 +64,7 @@ public class A1Q5 {
         
         
         
+               
         
         
     }
