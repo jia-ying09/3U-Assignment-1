@@ -22,7 +22,7 @@ public class A1Q1 {
         //creating city kitchener
         City kitchener = new City();
         // creating robot timmy
-        Robot timmy = new Robot(kitchener, 1, 3, Direction.EAST);
+        Robot timmy = new Robot(kitchener, 1, 3, Direction.WEST);
         //making square wall
         new Wall(kitchener, 3, 3, Direction.SOUTH);
         new Wall(kitchener, 3, 4, Direction.SOUTH);
@@ -34,12 +34,21 @@ public class A1Q1 {
         new Wall(kitchener, 3, 3, Direction.WEST);
         //making timmy move
         timmy.move();
-        timmy.move();
-        timmy.turnLeft();
-        timmy.turnLeft();
-        timmy.turnLeft();
+        timmy.turnLeft();      
         timmy.move();
         timmy.move();
-
+        timmy.move();
+        timmy.turnLeft();       
+        timmy.move();
+        timmy.move();
+        timmy.move();
+        timmy.turnLeft();       
+        timmy.move();
+        timmy.move();
+        timmy.move();
+        timmy.turnLeft();
+        timmy.move();
+        timmy.move();
+        
     }
 }
