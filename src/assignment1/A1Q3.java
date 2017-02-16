@@ -69,8 +69,7 @@ public class A1Q3 {
         timmy.move();
         timmy.move();
         timmy.turnLeft();
-        
-        
+
     }
-    
+
 }

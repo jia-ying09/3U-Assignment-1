@@ -46,7 +46,7 @@ public class A1Q5 {
         timmy.turnLeft();
         maria.move();
         maria.pickThing();
-        maria.turnLeft();               
+        maria.turnLeft();
         timmy.turnLeft();
         timmy.move();
         maria.move();
@@ -58,15 +58,11 @@ public class A1Q5 {
         timmy.move();
         timmy.pickThing();
         timmy.move();
-        maria.move();       
+        maria.move();
         timmy.pickThing();
-        timmy.turnLeft(); maria.pickThing();
-        
-        
-        
-               
-        
-        
+        timmy.turnLeft();
+        maria.pickThing();
+
     }
-    
+
 }

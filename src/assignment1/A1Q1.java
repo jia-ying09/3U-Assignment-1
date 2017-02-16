@@ -9,7 +9,6 @@ import becker.robots.Robot;
 import becker.robots.City;
 import becker.robots.Wall;
 
-
 /**
  *
  * @author linj4653
@@ -33,15 +32,14 @@ public class A1Q1 {
         new Wall(kitchener, 2, 3, Direction.NORTH);
         new Wall(kitchener, 2, 3, Direction.WEST);
         new Wall(kitchener, 3, 3, Direction.WEST);
-         //making timmy move
+        //making timmy move
         timmy.move();
         timmy.move();
         timmy.turnLeft();
         timmy.turnLeft();
         timmy.turnLeft();
         timmy.move();
-        timmy.move();        
-        
-        
+        timmy.move();
+
     }
 }
